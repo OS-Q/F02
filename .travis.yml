@@ -12,9 +12,8 @@ env:
   - PLATFORMIO_PROJECT_DIR=examples/arduino-internal-libs
 
 install:
-  - pip install platformio
-    pio update
-  - pio platform install file://.
+  - pip install -U https://github.com/platformio/platformio/archive/develop.zip
+  - pio platform install https://github.com/OS-Q/P33/archive/pio.zip
 
 script:
   - pio run -d $PLATFORMIO_PROJECT_DIR
