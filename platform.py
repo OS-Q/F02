@@ -69,8 +69,8 @@ class P33Platform(PlatformBase):
                         "-port", "2331"
                     ],
                     "executable": ("JLinkGDBServerCL.exe"
-                                   if platform.system() == "Windows" else
-                                   "JLinkGDBServer")
+                                    if platform.system() == "Windows" else
+                                    "JLinkGDBServer")
                 }
             }
 
