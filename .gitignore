@@ -24,3 +24,5 @@ teensy2*
 teensy3*
 teensyl*
 misc/
+platform*
+builder/
