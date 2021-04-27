@@ -22,7 +22,7 @@
   "version": "4.12.0",
   "frameworks": {
     "arduino": {
-      "package": "framework-arduinoteensy",
+      "package": "A33",
       "script": "extend/frameworks/arduino.py"
     },
     "mbed": {
@@ -31,24 +31,16 @@
     }
   },
   "packages": {
-    "toolchain-atmelavr": {
-      "type": "toolchain",
-      "optional": false,
-      "owner": "platformio",
-      "version": "~1.50400.0",
-      "optionalVersions": [">=1.60301.0,<1.80000.0"]
-    },
     "toolchain-gccarmnoneeabi": {
       "type": "toolchain",
       "optional": false,
       "owner": "platformio",
       "version": "~1.50401.0"
     },
-    "framework-arduinoteensy": {
+    "A33": {
       "type": "framework",
       "optional": true,
-      "owner": "platformio",
-      "version": "~1.153.0"
+      "version": "https://github.com/OS-Q/A33.git"
     },
     "framework-mbed": {
       "type": "framework",
