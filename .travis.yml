@@ -13,7 +13,7 @@ env:
 
 install:
   - pip install -U https://github.com/platformio/platformio/archive/develop.zip
-  - pio platform install https://github.com/OS-Q/P33/archive/pio.zip
+  - pio platform install file://.
 
 script:
   - pio run -d $PLATFORMIO_PROJECT_DIR
